@@ -10,6 +10,12 @@ C++ project with VSCode on Windows
   - VisualStudio (Verified to work with 2019)
   - Clang
   - GCC (mingw)
+- Installation of OpenCASCADE
+  - Windows -
+    - Please perform the installation using the official installer.
+    - Define the environment variable `CASROOT` and the path to the installed DLL files according to the official documentation.
+  - Ubuntu
+    - `sudo apt install libocct-* occt-*`
 
 ## Building in VSCode
 
